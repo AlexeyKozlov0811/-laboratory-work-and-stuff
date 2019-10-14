@@ -1,0 +1,7 @@
+[autoexec]
+@echo off
+mount C: "D:\th\TASM\BIN"
+C:
+cls
+tlink.exe /3 /x /v lab1 >gtlink.log
+exit

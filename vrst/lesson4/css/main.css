@@ -1,0 +1,129 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+div, p, input, button, form, span, a, ul, li{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.shell{
+	background: rgba(77,192,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dc0fe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 62px;
+	color: #fff;
+}
+
+.title{
+	font-size: 37px;
+}
+
+.title span{
+	font-size: 59px;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer{
+	padding-top: 130px;
+	width: 650px;
+}
+
+p{
+	line-height: 1.66em;
+}
+
+.info{
+	width: 400px;
+	margin-bottom: 45px;
+}
+
+.btn{
+	width: 220px;
+	background-color: #ffd429;
+	padding: 22px 0;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	border: 0px solid #ffd429;
+}
+
+.btn:hover{
+	background: #e8bf1a;
+}
+
+.travel{
+	margin-bottom: 140px;
+}
+
+.wait_for{
+	padding: 105px 0px;
+}
+
+.section_title{
+	margin-bottom: 60px;
+	font-size: 30px;
+}
+
+.goal{
+	text-align: center;
+}
+
+.goal_text{
+	width: 305px;
+	font-size: 15px;
+}
+
+.icon{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.forms{
+	background: #ecf3f8; 
+}
+
+.form{
+
+}
+
+.input{
+	display: block;
+	margin: 0 auto;
+	padding: 18px;
+	width: 340px;
+	margin-bottom: 17px;
+}
+
+.credits{
+	background: #164d7a;
+	padding: 32px 0px;
+}

@@ -1,0 +1,196 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.animated{
+	opacity: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+div, p, input, button, form, span, a, ul, li{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.shell{
+	background: rgba(77,192,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dc0fe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 62px;
+	color: #fff;
+}
+
+.title{
+	font-size: 37px;
+}
+
+.title span{
+	font-size: 59px;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer{
+	padding-top: 130px;
+	width: 650px;
+}
+
+p{
+	line-height: 1.66em;
+}
+
+.info{
+	width: 400px;
+	margin-bottom: 45px;
+}
+
+.btn{
+	width: 220px;
+	background-color: #ffd429;
+	padding: 22px 0;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	border: 0px solid #ffd429;
+}
+
+.btn:hover{
+	background: #e8bf1a;
+}
+
+.travel{
+	margin-bottom: 140px;
+}
+
+.wait_for{
+	padding: 105px 0px;
+}
+
+.section_title{
+	margin-bottom: 60px;
+	font-size: 30px;
+}
+
+.goals{
+	text-align: center;
+}
+
+.goal_text{
+	width: 305px;
+	font-size: 15px;
+}
+
+.icon{
+	margin-bottom: 30px;
+}
+
+.forms{
+	background: #ecf3f8; 
+}
+
+.form{
+	width: 340px;
+	margin: 0 auto;
+}
+
+.input{
+	display: block;
+	width: 100%;
+	padding: 18px;
+	margin-bottom: 17px;
+}
+
+.credits{
+	background: #164d7a;
+	padding: 32px 0px;
+}
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+
+	.wrapper{
+		flex-direction: column;
+	}
+
+	.offer{
+		width: 100%;
+		text-align: center;
+	}
+
+	.travel{
+		display: block;
+		width: 100%;
+	}
+
+	.offer .btn{
+		width: 100%;
+	}
+
+	.info{
+		width: 100%;
+	}
+
+	.goal_text{
+		width: 100%;
+	}
+
+	.credits{
+		width: 100%;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+}
+
+/* 380px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+}
+/* 0px - 380px */
+@media screen and (max-width: 380px) {
+	.form{
+		width: 90%;
+	}
+}

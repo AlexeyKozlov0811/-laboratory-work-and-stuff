@@ -1,0 +1,2 @@
+void Move_un(struct Unit_u *un_ptr,struct Field_u **head,unsigned int cells,unsigned int player);//Переміщення
+void Place_un(struct Unit_u *un_ptr,struct Field_u **head,unsigned int num_un,unsigned int cells);//Розмащення юнітів на полі

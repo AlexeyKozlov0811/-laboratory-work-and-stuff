@@ -1,0 +1,83 @@
+a{
+	color: red;
+	font-size: 20px;
+}
+body{
+	background-color:white;
+	background-image:url(images/1.jpg);
+}
+/* h1{
+	color: #19FBFF;
+} */
+
+/* h2{
+	color: rgb(0,255,0);
+}
+
+h3{
+	color: rgba(0,0,255,0.3);
+} */
+
+#a2{
+	color: green;
+}
+
+#test{
+	transform: scale(0.5);
+	transition: 1.0s all;
+	font-size: 30px;
+	border-radius: 50px;
+	opacity: 0.5;
+	padding: 50px;
+	box-shadow: 3px 3px 7px #000000;
+	width: 75px;
+	height: 75px;
+	display: block;
+	text-align: center;
+	font-weight: 1;
+}
+#test:hover{
+	transform: rotate(45deg); 
+	background-color: red;
+	opacity:1;
+}
+
+.h1{
+	color:blue;
+}
+
+.h2{
+	color:red;
+	border: 1px dashed green;
+	background-color: lime;
+}
+
+.test1{
+	font-size: 50px;
+	background-color: lime;
+	border: 10px solid green;
+}
+
+.message{
+	/*background-color: gray;*/
+	border: 1px solid black;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 500px;
+	padding:10px;
+}
+
+.success{
+	color: white;
+	background-color: green;
+}
+
+.failure{
+	color: white;
+	background-color: red;
+}
+
+.message:hover{
+	border: 2px solid black;
+}
+

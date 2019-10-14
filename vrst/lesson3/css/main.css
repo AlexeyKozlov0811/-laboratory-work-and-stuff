@@ -1,0 +1,43 @@
+img{
+	width: 150px;
+}
+
+h1{
+	color: #ff0101;
+}
+
+.second{
+	background-color: #0000fe;
+	width: 100px;
+	color: #fff;
+	margin-bottom: 100px;
+}
+
+p span{
+	color: #ff0101;
+}
+
+h2{
+	padding: 5px;
+	color: #fff;
+	background-color: #008001;
+}
+
+.big_header{
+	padding: 45px 40px;
+}
+
+#msg{
+	margin-left: 100px;
+}
+
+ul{
+	margin: 30px 10px; 
+	padding-left: 25px;
+}
+
+li{
+	border: 1px solid #000;
+	padding: 3px 0px;
+	font-size: 25px;
+}

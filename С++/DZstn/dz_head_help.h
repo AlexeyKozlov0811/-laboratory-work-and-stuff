@@ -1,0 +1,1 @@
+int Char_to_int(char ch);//Перетворення з char в int

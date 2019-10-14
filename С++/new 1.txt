@@ -1,0 +1,14 @@
+Hello. 
+I mistakenly entered the wrong address while shoping in online. I asked for redirection from shop but they told me to contact postal service.
+Can i get my parcel on another adress?
+Tracking number is 420197209205590236455838164120
+Original destination
+729 Grantham LN 
+CO EasyXpress 70337 
+New Castle Delaware [Zipcode: 19720] 
+The destination where I want to receive the parcel
+Address Line 1	26A Parkway Circle
+Address Line 2	CO EasyXpress 70337
+City	New Castle
+State	Delaware
+ZIP	19720-4077
