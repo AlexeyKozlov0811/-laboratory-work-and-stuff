@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab1_3</title>
+    <style type="text/css">
+        .Days {font-size: 20px; color: blue;}
+        #map_image {margin-left: 100px; border: 1px solid black;}
+        /*area:hover {border: 2px solid black;}*/
+        img:hover {border: 2px solid black;}
+    </style>
+</head>
+<body>
+    <map name="timetable_of_classes">
+        <area shape="rect" coords="0,0,220,45" href="#day1" alt="Неділя">
+        <area shape="rect" coords="0,44,220,85" href="#day2" alt="Понеділок">
+        <area shape="rect" coords="0,84,220,125" href="#day3" alt="Вівторок">
+        <area shape="rect" coords="0,126,220,170" href="#day4" alt="Середа">
+        <area shape="rect" coords="0,170,220,210" href="#day5" alt="Четвер">
+        <area shape="rect" coords="0,211,220,251" href="#day6" alt="П'ятниця">
+        <area shape="rect" coords="0,252,220,291" href="#day7" alt="Субота">
+    </map>
+    <img id="map_image" src="l14.png" usemap="#timetable_of_classes">
+
+    <table border="1" width="100%">
+        <caption>Розклад</caption>
+        <tr><th><a name="day1" class="Days">Неділя</a></th></tr>
+        <tr><th>Відсутні</th></tr>
+
+        <tr><th><a name="day2" class="Days">Понеділок</a></th></tr>
+        <tr><th><img src="l15.jpg" alt=""></th></tr>
+
+        <tr><th><a name="day3" class="Days">Вівторок</a></th></tr>
+        <tr><th><img src="l16.jpg" alt=""></th></tr>
+
+        <tr><th><a name="day4" class="Days">Середа</a></th></tr>
+        <tr><th><img src="l17.jpg" alt=""></th></tr>
+
+        <tr><th><a name="day5" class="Days">Четвер</a></th></tr>
+        <tr><th><img src="l18.jpg" alt=""></th></tr>
+
+        <tr><th><a name="day6" class="Days">П'ятниця</a></th></tr>
+        <tr><th><img src="l19.jpg" alt=""></th></tr>
+
+        <tr><th><a name="day7" class="Days">Субота</a></th></tr>
+        <tr><th>Відсутні</th></tr>
+    </table>
+</body>
+</html>

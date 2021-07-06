@@ -1,0 +1,219 @@
+*{
+    font-family: "Century Schoolbook", serif;
+}
+
+.wrapper{
+    padding: 0 18%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li{
+    display: inline;
+    height: 41px;
+}
+
+body a:active{
+    text-decoration: none;
+}
+
+body a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li a{
+    color: black;
+    line-height: 42px;
+    margin-right: 10px;
+}
+
+header nav .main_nav{
+    width: 701px
+}
+
+a.button{
+    line-height: 40px;
+    background-color: #00b894;
+    border: none;
+    display: inline-block;
+    color: white;
+    height: 41px;
+    text-align: center;
+    margin-right: 0;
+    padding: 0 52px;
+}
+
+header article{
+    padding: 239px 0;
+}
+
+span{
+    color: #00b894;
+    font-weight: bold;
+}
+
+.about{
+    padding-top: 165px;
+    padding-bottom: 278px;
+}
+
+.about div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services_wrapper{
+    padding-bottom: 206px;
+}
+
+.services_wrapper h1 {
+    text-align: center;
+    margin-bottom: 121px;
+}
+
+.services{
+    display: flex;
+    justify-content: left;
+}
+
+.services article{
+    width: 315px;
+    margin-right: 84px;
+}
+
+.experience_wrapper{
+    background-color: #00b894;
+    height: 500px;
+}
+
+.experience_wrapper h1{
+    text-align: center;
+    color: white;
+    padding-top: 45px;
+    margin-bottom: 130px;
+}
+
+.experience_wrapper p{
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    padding: 10px;
+}
+
+.projects_wrapper{
+    padding-top: 92px;
+}
+
+.projects_wrapper h1{
+    padding-bottom: 30px;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 190px;
+}
+
+.projects article{
+    width: 350px;
+    height: 350px;
+}
+
+.projects article img{
+    position: absolute;
+    z-index: 1;
+    opacity:1;
+    transition: all .5s;
+}
+
+.projects article img:hover{
+    opacity: 0;
+}
+
+.projects article table{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.contacts_wrapper{
+    background-color: #00b894;
+    height: 500px;
+}
+
+.contacts_wrapper h1{
+    text-align: center;
+    color: white;
+    padding-top: 45px;
+    margin-bottom: 10px;
+}
+
+.contacts {
+    color: white;
+    display: flex;
+    justify-content: left;
+}
+
+.contacts article{
+    padding: 10px 0;
+}
+
+.contacts article img{
+    display: block;
+    margin: 10px 0;
+}
+
+.contacts article p{
+    padding: 30px 10px;
+}
+
+.credits .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.credits h1{
+    padding-top: 10px;
+}
+
+.credits a{
+    display: block;
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.credits input{
+    width: 405px;
+    border: gray 1px solid;
+    border-right: none;
+    height: 45px;
+    padding: 4px 15px;
+}
+
+.credits button{
+    position: absolute;
+    padding: 6px 0;
+    width: 45px;
+    height: 45px;
+    border: #00b894 1px solid;
+    background-color: #00b894;
+    line-height: 10px;
+}
+
+footer{
+    color: gray;
+}
+

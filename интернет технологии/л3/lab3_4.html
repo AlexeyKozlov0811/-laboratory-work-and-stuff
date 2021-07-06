@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <title>Обчислення площі квадрата</title>
+    <script>
+    function care (a)
+    {return a*a}
+    </script>
+</head>
+<body>
+    <h4>Обчислення площі квадрата</h4>
+    <form name="form1">
+        <p>Введіть довжину сторони квадрата і натисніть кнопку <b>Визначити</b></p>
+        Сторона: <input type="text" name="num" size="4"><br><br>
+        <input type="button" value="Визначити"
+        onClick="document.form1.res.value= care(document.form1.num.value) ">
+        <br><br>
+        Площа: <input type="text" name="res" size="8"><br><br>
+        <input type="reset">
+    </form>
+</body>
+</html>

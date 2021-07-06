@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Виклик функції. Time()</title>
+    <script language="JavaScript" type="text/javascript">
+    function display_time() {
+        var now = new Date()
+        var hours = now.getHours()
+        var minutes = now.getMinutes()
+        var seconds = now.getSeconds()
+        var current_time = hours + ":" + minutes + ":" + seconds
+        document.write("Поточний час:" + current_time)
+    }
+    </script>
+</head>
+<body>
+    <form name=orm1>
+    Бажаєте дізнатися час?<br> Натисніть кнопку:<br>
+    <input type=button value="Час" onClick="display_time()">
+    </form>
+</body>
+</html>

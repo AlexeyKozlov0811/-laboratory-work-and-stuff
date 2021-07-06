@@ -1,0 +1,94 @@
+body {
+    margin: 0 100px;
+}
+
+header {
+    background-color: lightgrey;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 5px;
+    display: block;
+}
+
+ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top_menu > li {
+    float: left;
+    position: relative;
+    border-left: 1px solid black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.top_menu {
+    font-size: 20px;
+}
+
+.top_menu li:hover {
+    background-color: gray;
+}
+
+.sub_menu {
+    position: absolute;
+    z-index: 5;
+    background-color: lightgrey;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s linear;
+}
+
+.sub_menu li {
+    position: relative;
+}
+.sub_menu li a {
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+li:hover > .sub_menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.text H1:hover::after{
+    content: "Диктатор Риму";
+    text-decoration-line: underline;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+}
+
+.trademark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -0.625em;
+}

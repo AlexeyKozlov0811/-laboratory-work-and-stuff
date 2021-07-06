@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input id="b1" value="Натисни мене" onclick="alert('Дякую!')" type="button"/>
+    <input id="b2" type="button" value="Натисни мене"/>
+    <input id="b3" value="Натисни мене" onclick=sayThanks() type="button"/>
+    <script>
+    let elem = document.getElementById('b2');
+    elem.onclick = function() { alert('Спасибі');}
+    function sayThanks() {
+    alert('Дякую!');
+    }
+    </script>
+    <script>
+        document.getElementById('b3').onclick = sayThanks;
+    </script>
+    <input type="button" onclick="alert(event.type)" value="Тип події">
+    <input type="text" onMouseOver="alert(event.type)" value="Тип події">
+    <input onkeydown="this.nextSibling.innerHTML = event.keyCode"> <b></b>
+</body>
+</html>

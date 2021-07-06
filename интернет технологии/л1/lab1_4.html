@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab1_4</title>
+</head>
+<body>
+    <form onsubmit="alert('Кафедра = ' + faculty.value +'\n' +
+                            'Дисципліна = ' + dis.value +'\n' +
+                            'Дисципліна1 = '+ dis1.value +'\n'+
+                            'Прізвище = ' + lastname.value +'\n'+
+                            'Ім\'я = ' + firstname.value +'\n'+
+                            'Група = ' + ngroup.value +'\n')" name="l1_4" method="get">
+        <select name="faculty">
+            <option value="KCM">КСМ</option>
+            <option value="KCY">КСУ</option>
+        </select><br>
+        <input type="radio" name="dis" value="Інтернет-технології" checked>Інтернет-технології<br>
+        <input type="radio" name="dis" value="Математичне програмування">Математичне програмування<br>
+        <input type="checkbox" name="dis1" value="Системне програмне забезпечення">Системне програмне забезпечення<br>
+        <input type="checkbox" name="dis2" value="Функціональне та логічне програмування">Функціональне та логічне програмування<br>
+        <input type="text" name="lastname" required><br>
+        <input type="text" name="firstname" required><br>
+        <select name="ngroup">
+            <option value="431">431</option>
+            <option value="432">432</option>
+            <option value="433">433</option>
+            <option value="434">434</option>
+            <option value="435">435</option>
+            <option value="436">436</option>
+            <option value="437">437</option>
+        </select><br>
+        <input type="submit">
+        <input type="reset">
+        <output name="dis_o"></output>
+    </form>
+</body>
+</html>

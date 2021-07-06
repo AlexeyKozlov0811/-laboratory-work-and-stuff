@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Метод promt для об’єкта window</title>
+    <script>
+    function reg(obj)
+    {
+        let s=window.prompt("Введіть ваше ім’я","")
+        obj.regname.value=s
+        alert("Ви ввели ім'я " + s)
+        obj.reggroup.value=obj.group.value
+    }
+    </script>
+</head>
+<body>
+    <p align="center"><strong>Метод <em>prompt</em> для об’єкта window</strong></p>
+    <form name="form1">
+        <label for="groupChoice1">401</label><input type="radio" id="groupChoice1" name="group" value="401" checked>
+        <label for="groupChoice2">402</label><input type="radio" id="groupChoice2" name="group" value="402">
+        <label for="groupChoice3">406</label><input type="radio" id="groupChoice3" name="group" value="406">
+        <input type="button" value="Реєстрація" onclick="reg(form1)"><br><br>
+        <input type="text" name="regname">
+        <input type="text" name="reggroup">
+    </form>
+</body>
+</html>

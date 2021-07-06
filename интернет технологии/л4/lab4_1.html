@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <title>Обчислення розмірів стипендії</title>
+    <script language="JavaScript">
+    function msgot()
+    {window.status="Неправільно введені дані";
+    alert("Перевірте правильність введення оцінок")
+    window.status=""}
+    function st(obj)
+    {var a=Number(obj.num1.value);
+    var b=Number(obj.num2.value);
+    var c=Number(obj.num3.value);
+    var d=Number(obj.num4.value);
+    let avg = (a+b+c+d)/4;
+    let otherWindow = window.open();
+    otherWindow.onload = () => {
+                let mean = otherWindow.document.createElement('p'),
+                    body = otherWindow.document.body;
+                mean.innerHTML = "Середній бал:" + avg;
+                body.insertBefore(mean, body.firstChild);
+            }
+    if ((a<2)||(a>5)||(b<2)||(b>5)||(c<2)||(c>5)||(d<2)||(d>5))
+    {msgot()}
+    else
+    { var k; var t;
+    var m=0;
+    k=Math.min(Math.min(a,b),Math.min(c,d))
+    t=Math.max(Math.max(a,b),Math.max(c,d))
+    if (k==5) {m=100}
+    if ((t==5) && (k==4)) {m=75}
+    if ((t==4) && (k==4)) {m=50}
+    if (m==0) {alert("На жаль, вам стипендія не призначена")}
+    else {alert("Вам призначена стипендія у розмірі "+m+" грн.")}
+    }
+    }
+    </script>
+</head>
+<body>
+    <h4>Обчислення розмірів стипендії за результатами сесії</h4>
+    <h4>Введіть отримані оцінки в будь-якому порядку:</h4>
+    <form name="form1">
+        Оцінка 1 <input type="text" name="num1" size="3"><br>
+        Оцінка 2 <input type="text" name="num2" size="3"><br>
+        Оцінка 3 <input type="text" name="num3" size="3"><br>
+        Оцінка 4 <input type="text" name="num4" size="3"><br>
+        <hr>Для визначення розмірів стипендії натисніть кнопку:<hr>
+        <input type="button" value="Визначити" onclick="st(form1)"><br><hr>
+        <input type="text" size="50" name="stip"><hr>
+        <input type="reset" value="Очистити">
+    </form>
+</body>
+</html>

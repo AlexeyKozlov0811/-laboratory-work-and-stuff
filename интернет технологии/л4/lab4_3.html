@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Зміна розмірів зображення</title>
+    <script>
+        size = [0,0]
+        function big(i)
+        {
+            document.images[i].width+=10
+            document.images[i].height+=10
+            document.images[i].style.border = "1px solid red"
+            window.size[i]++
+        }
+        function little(i)
+        {
+            document.images[i].width-=10*window.size[i]
+            document.images[i].height-=10*window.size[i]
+            document.images[i].style.border = ""
+            window.size[i] = 0
+        }
+    </script>
+</head>
+<body bgcolor="#088880">
+    <div style="text-align: center;">
+        <img src="im1.jpg" alt="">
+        <img src="im2.jpg" alt="" onClick="big(1)" ondblclick="little(1)">
+        <h3>Вбудовані зображення</h3>
+        <form name="form1">
+        Для зміни розмірів малюнка натисніть кнопку
+        <b>Збільшити</b><br>
+        <input type="button" value="Збільшити" onClick="big(0)">
+        <input type="reset" value="Відновити" onClick="little(0)">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab6_6</title>
+    <link rel="stylesheet" href="lab6_5.css" />
+    <script type="text/javascript" src="lab6_5.js"></script>
+</head>
+<body>
+    <section class="withCanvas">
+        <canvas id=background width=100 height=100 style=display:none></canvas>
+        <header>
+        <h1>Успішність групи</h1>
+        <h2>Ваші дані</h2>
+        </header>
+        <form>
+            <label for="name">ПІБ:</label>
+            <input type="text" id="name" placeholder="Введіть ваше ПІБ" autofocus="autofocus">
+            <br />
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введіть ваш email">
+            <br />
+            <label for="phone">Тел.:</label>
+            <input type="tel" id="phone" placeholder="Введіть телефонний номер">
+            <br />
+            <label for="group">Ваша група:</label>
+            <input type="number" id="group"><br />
+            <label for="avg">Ваш середній бал</label>
+            <input type="range" id="avg" min="1" max="100" value="80">
+            <br /><br />
+            <input type="submit" value="Відправити">
+        </form>
+    </section>
+</body>
+<script>
+    loadCanvas()
+</script>
+</html>

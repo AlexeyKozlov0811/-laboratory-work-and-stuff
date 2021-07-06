@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Зображення в новому вікні</title>
+    <script>
+        function OpenNew(number_of_image) {
+            if (1<=number_of_image && number_of_image<=4)
+                return window.open('im'+number_of_image+ '.jpg',  '', 'width=400, height=400')
+            else
+                alert("Введіть число в межах від одного до чотирьох включно")
+        }
+    </script>
+</head>
+<body bgcolor="#088880">
+    <div style="text-align: center;">
+        <img src="im1.jpg" alt="">
+        <img src="im2.jpg" alt="">
+        <img src="im3.jpg" alt="">
+        <img src="im4.jpg" alt="">
+        <h3>Вбудовані зображення</h3>
+        <form name="form1">
+            <input name="number" type="text" value="" placeholder="Введіть номер картинки">
+            <input type="button" value="Відкрити" onClick="active_window = OpenNew(number.value)">
+            <input type="button" value="Закрити" onClick="active_window.close()">
+        </form>
+    </div>
+</body>
+</html>

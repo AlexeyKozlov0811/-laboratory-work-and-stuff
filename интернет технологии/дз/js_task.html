@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js_task</title>
+</head>
+<body>
+<h1>Варіант №16</h1>
+<p>
+    1) Найти наибольшую и наименьшую цифры в записи данного натурального числа.
+</p>
+<p>
+    2) Произведение n первых нечетных чисел равно p. Сколько сомножителей взято? Если введенное число
+    n не является указанным произведением, сообщить об этом.
+</p>
+<p>
+    3) Найти на отрезке [n; m] натуральное число, имеющее наибольшее количество делителей.
+</p>
+<p>
+    4) Задумано некоторое число x (x < 100).
+    Известны числа k, m, n — остатки от деления этого числа на 3, 5, 7. Найти x.
+</p>
+<script>
+    function first(n){
+        n = (n + '').split ('').sort ();
+        return 'min=' + n [0] + ', max=' + n [n.length - 1]
+    }
+    let n = prompt("Введіть натуральне число")
+    alert(first(n))
+    
+    function second(n) {
+        let a = 1;
+        let b = 1;
+        let c = 1;
+        while (c < n){
+            a = a + 2;
+            b = b + 1
+            c = c * a
+        }
+        if (n === c) {
+            alert(`Взято множників - ${b}`)
+        }
+        else {
+            alert(`Число - ${n} не є добутком перших непарних чисел`)
+        }
+    }
+    n = Number(prompt("Введіть добуток перших непарних натуральних чисел"))
+    second(n)
+
+    function third() {
+        let n = Number(prompt("Введіть відрізок [n; m] n=", "5"));
+        let m = Number(prompt("m=", "10"));
+        let temp;
+        if (n > m)
+        {
+            temp = n;
+            n = m;
+            m = temp;
+        }
+        let divisors = 0;
+        let max_divisors = -1;
+        let number = -1;
+        for(let i = n; i <= m; i++)
+        {
+            for(let j = 0; j <= i; j++)
+            {
+                if (i%j === 0)
+                {
+                    divisors++;
+                }
+            }
+            if (divisors > max_divisors)
+            {
+                max_divisors = divisors;
+                number = i;
+            }
+            divisors = 0;
+        }
+        alert(`${number} - має найбільшу кількість дільників`)
+    }
+    third()
+
+    function fourth() {
+        let k = Number(prompt("Введіть залишки від ділення k=", "1"));
+        let m = Number(prompt("m=", "4"));
+        let n = Number(prompt("n=", "6"));
+        for (let i = 1; i <= 100; i++){
+            if ((i%3 === k) && (i%5 === m) && (i%7 === n)){
+                alert(`${i} при ділені на 3, 5 і 7 дає таки залишки`)
+            }
+        }
+    }
+    fourth()
+</script>
+</body>
+</html>

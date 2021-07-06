@@ -1,0 +1,16 @@
+section.withCanvas {
+margin-top: 25px;
+text-align: center;
+}
+#no-canvas {
+display: none;
+}
+
+canvas {
+width: 480px;
+height: 320px;
+-moz-border-radius: 6px 0 0 0;
+-webkit-border-radius:6px 0 0 0;
+border-radius: 6px 0 0 0;
+box-shadow: 3px 3px 5px 2px #FFAA88;
+}
