@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1295</width>
+    <height>335</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>1281</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>перше тіло</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>друге тіло</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>третє тіло</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>x0</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>y0</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>v0</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>alpha</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>x_t</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>y_t</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>t_t</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>x1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>y1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>ymax</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>S</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>t</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="6">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="7">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="8">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="9">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="10">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="11">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="5">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="6">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="7">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="8">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="9">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="10">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="11">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="5">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="6">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="7">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="8">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="9">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="10">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="11">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>283</width>
+      <height>175</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QRadioButton" name="radioButton">
+         <property name="text">
+          <string>Цільова точка</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;x_t&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox">
+           <property name="value">
+            <double>1.000000000000000</double>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+           <property name="value">
+            <double>1.000000000000000</double>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_7">
+           <property name="value">
+            <double>1.000000000000000</double>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;y_t&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+           <property name="value">
+            <double>1.000000000000000</double>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_5">
+           <property name="value">
+            <double>1.000000000000000</double>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_8">
+           <property name="value">
+            <double>1.000000000000000</double>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;t_t&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+           <property name="value">
+            <double>1.000000000000000</double>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_6">
+           <property name="value">
+            <double>1.000000000000000</double>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_9">
+           <property name="value">
+            <double>1.000000000000000</double>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QRadioButton" name="radioButton_2">
+         <property name="text">
+          <string>Економічна траєкторія</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;x_t&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_10">
+           <property name="value">
+            <double>1.000000000000000</double>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;y_t&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_11">
+           <property name="value">
+            <double>1.000000000000000</double>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Обрахувати</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
